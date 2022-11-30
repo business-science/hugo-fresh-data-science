@@ -3,6 +3,7 @@
 {{ if .Params.sidebar }}
 {{ $sidebarVisible = .Params.sidebar }}
 {{ end }}
+{{- $brandName        := .Site.Params.navbarlogo.brandName}}
 {{- $navbarLogo       := .Site.Params.navbarlogo }}
 {{- $navbarLogoWidth  := .Site.Params.navbarlogo.width | default 112 }}
 {{- $navbarLogoHeight := .Site.Params.navbarlogo.width | default 28 }}
@@ -11,8 +12,9 @@
     <div class="navbar-brand">
       {{- if $navbarLogo}}
       <a class="navbar-item" href="{{ $navbarLogo.link }}">
-        <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="{{ $navbarLogoWidth }}" height="{{ $navbarLogoHeight }}">
+        <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="{{ $navbarLogoWidth }}" height="{{ $navbarLogoHeight }}" style="-webkit-filter: drop-shadow(1px 1px 1px #222);">
       </a>
+      <h4 style="margin:auto;">{{ $brandName }}</h4>
       {{- end}}
 
       {{- if $sidebarVisible }}
