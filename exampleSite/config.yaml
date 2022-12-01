@@ -44,6 +44,7 @@ params:
     greydark_color: "#4a4a4a" # "#4a4a4a" Controls Headers
     bluegrey_color: "#2c3e50" # "#444F60" (Controls Headers & Footer Background)
     navbar_color: "#2c3e50" # "#FFF"
+    navbar_text_color: "#FFF" # #999
   
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbarStyle:
