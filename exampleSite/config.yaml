@@ -41,7 +41,9 @@ params:
   css:
     secondary_color: "#F39200" # "#F39200" "#4FC1EA" "#00efb7" (Controls Buttons, Accents)
     mutedgrey_color: "#999" # "#999" # Contols writing 
-    bluegrey_color: "#2c3e50" # "#444F60" (Controls Footer)
+    greydark_color: "#4a4a4a" # "#4a4a4a" Controls Headers
+    bluegrey_color: "#2c3e50" # "#444F60" (Controls Headers & Footer Background)
+    navbar_color: "#2c3e50" # "#FFF"
   
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbarStyle:

@@ -14,7 +14,7 @@
       <a class="navbar-item" href="{{ $navbarLogo.link }}">
         <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="{{ $navbarLogoWidth }}" height="{{ $navbarLogoHeight }}" style="-webkit-filter: drop-shadow(1px 1px 1px #222);">
       </a>
-      <h4 style="margin:auto;">{{ $brandName }}</h4>
+      <h4 class="navbar-item" style="margin:auto;">{{ $brandName }}</h4>
       {{- end}}
 
       {{- if $sidebarVisible }}
