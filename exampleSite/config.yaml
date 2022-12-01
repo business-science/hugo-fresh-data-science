@@ -37,6 +37,12 @@ params:
   header_font: "Open Sans"
   body_font: "Arial"
   
+  # css
+  css:
+    secondary_color: "#F39200" # "#F39200" "#4FC1EA" "#00efb7" (Controls Buttons, Accents)
+    mutedgrey_color: "#999" # "#999" # Contols writing 
+    bluegrey_color: "#2c3e50" # "#444F60" (Controls Footer)
+  
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbarStyle:
   navbar:
@@ -192,4 +198,6 @@ params:
         links:
         - text: Latest news
           link: /blog
+          
+
           
