@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+config.yaml
+/themes*
+.hugo_build.lock
+/public
+/resources
